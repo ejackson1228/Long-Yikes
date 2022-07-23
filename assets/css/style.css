@@ -1,0 +1,16 @@
+: root{
+    --primary-color: #a32600;
+    --secondary-color: #02afb8;
+    --tertiary-color: #fff;
+}
+
+.header{
+    font-size: 24px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    position: inline-block;
+}
+
+.header h1{
+
+}
