@@ -1,4 +1,4 @@
-: root{
+:root{
     --primary-color: #a32600;
     --secondary-color: #02afb8;
     --tertiary-color: #fff;
@@ -8,9 +8,21 @@
     font-size: 24px;
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    position: inline-block;
+    position: inline;
+}
+
+.henry-and-i{
+    max-height: auto;
+    max-width: auto;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
 }
 
 .header h1{
+    color:#a32600;
+}
 
+.contact-me{
+    position:inline;
 }
