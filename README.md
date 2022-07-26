@@ -15,3 +15,9 @@ Description: In these files, you will find code for my personal portfolio page. 
 
 <img src="./assets/Images/Portfolio-preview-3-3.jpg" alt="preview of application (3/3)">
 </html>
+
+
+
+<a href="https://ejackson1228.github.io/Long-Yikes/">https://ejackson1228.github.io/Long-Yikes/</a>
+
+
