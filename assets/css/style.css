@@ -88,6 +88,7 @@ header nav ul li a:hover{
 
 main{
     background-color: var(--primary-color);
+    color: yellow;
 }
 
 .main div{
@@ -96,8 +97,65 @@ main{
     padding: 5px;
 }
 
+.aboutme{
+    color: yellow;
+
+}
+.aboutme h2, .class-resume h2, .class-work h2, .contactme h2{
+    text-align: center;
+    border-bottom: solid yellow;
+    margin-right: 700px;
+    margin-left: 700px;
+}
+
+.aboutme p, .class-resume p, .class-work p{
+    text-align: center;
+    font-size:medium;
+
+}
+
+.projects{
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.run-buddy{
+    margin:auto;
+    padding:auto;
+}
 
 
-.footer{
-    display:inline-block
+.contactme{
+    color:yellow;
+}
+
+.contactme ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.contactme ul li{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-right:50px;
+    padding-left: 50px;;
+    justify-content: center;
+}
+
+.contactme ul li h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.contactme ul li a{
+    text-align: center;
+    font-size: 20px;
 }
