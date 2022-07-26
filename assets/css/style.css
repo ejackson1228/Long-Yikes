@@ -253,9 +253,30 @@ main{
     }
 }
 
+@media screen and (max-width:425px){
+    .aboutme h2, .class-resume h2, .class-work h2, .contactme h2{
+        margin-right: 170px;
+        margin-left: 170px;
+    }
+}
+
 @media screen and (max-width:320px){
+    
+    .header nav ul li{
+        font-size: 25px;
+        margin: 10px;
+        padding: 15px;
+        list-style: none;
+        display: inline-block;
+    }
     .aboutme h2, .class-resume h2, .class-work h2, .contactme h2{
         margin-right: 100px;
         margin-left: 100px;
     }
+    .phone{
+        margin: auto;
+        padding:auto;
+        display:inline;
+    }
+
 }
