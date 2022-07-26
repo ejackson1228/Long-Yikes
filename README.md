@@ -8,4 +8,10 @@ Description: In these files, you will find code for my personal portfolio page. 
 - Titled images of my applications (the first being larger than the others.)
 - A deployable application through the titled images. 
 - Media Queries to adapt to different sized screens. 
+<html>
+<img src=".assets/Images/Portfolio-Preview-1-3.jpg" alt="preview of application (1/3)"/>
 
+<img src="./assets/Images/Portfolio-Preview-2-3.jpg" alt="preview of application (2/3)"/>
+
+<img src="./assets/Images/Portfolio-preview-3-3.jpg" alt="preview of application (3/3)">
+</html>
