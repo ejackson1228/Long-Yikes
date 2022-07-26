@@ -203,8 +203,8 @@ main{
 
 @media screen and (max-width:1440px) {
     .aboutme h2, .class-resume h2, .class-work h2, .contactme h2{
-        margin-right: 650px;
-        margin-left: 650px;
+        margin-right: 500px;
+        margin-left: 500px;
     }
 }
 @media screen and (max-width:1024px){
@@ -240,11 +240,6 @@ main{
         object-fit: fill;
     }
 
-    .aboutme h2, .class-resume h2, .class-work h2, .contactme h2{
-        margin-right: 700px;
-        margin-left: 700px;
-    }
-}
 
 @media screen and (max-width:768px){
     .aboutme h2, .class-resume h2, .class-work h2, .contactme h2{
