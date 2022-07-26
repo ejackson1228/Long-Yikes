@@ -12,8 +12,10 @@
 
 <body>
     <header class=header> 
-        <img id="henry-and-i" src="./assets/Images/me-and-henry.jpeg " alt="My cat, Henry, and I spending quality time."/>
-            <h1> <!--Insert profile pic here--> Elijah Jackson</h1>
+        <div class="profile-pic"> 
+            <img src="assets/Images/me-and-henry.jpeg" alt="my cat, henry and i, enjoying quality time"/> 
+        </div>
+            <h1> Elijah Jackson </h1>
             <nav>
                  <ul>
                         
@@ -35,20 +37,20 @@
 
                 </ul>
             </nav>
-
+        
 
     </header>
 
 
     <!-- hero section here-->
     <section class="hero">
-        <img src="" alt=""/>
+        <img src="./assets/Images/me-and-henry.jpeg" alt="same image"/>
     </section>
 
 
     <!-- insert cards for each div below-->
     <main>
-        <div class="About-me">
+        <div id="About-Me" class="aboutme">
             <h2>About Me</h2>
 
             <p>Hi! My name is Elijah Jackson. Welcome to my "About Me!", where you get a little peek into the life of me. 
@@ -59,21 +61,27 @@
 
         </div>
 
-        <div class="Resume">
+        <div id="Resume" class="class-resume">
             <h2>Resume</h2>
-
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Consequuntur aut autem ad, vel porro dolorum possimus repellat voluptates sunt consequatur 
+                perferendis fuga blanditiis fugiat totam recusandae, distinctio ea veritatis hic!
+            </p>
 
         </div>
 
-        <div class="Work">
+        <div id="Work" class="class-work">
             
             <h2> Projects i've worked on </h2>
                 
                 <div class="run-buddy">
-
+                    <h3>Run Buddy</h3>
+                        <p>HTML basic and advanced CSS styling</p>
                 </div>
 
                 <div class="Horiseon">
+                    <h3>Horiseon</h3>
 
                 </div>
                 <!--Third project here?-->
@@ -86,7 +94,7 @@
 
     </main>
 
-    <footer class="Contact-me">
+    <footer id="Contact-me">
         <h2> Contact Me! </h2>
         <div class="e-mail"> 
             <h3>E-mail:</h3>

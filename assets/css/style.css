@@ -1,28 +1,103 @@
 :root{
-    --primary-color: #a32600;
-    --secondary-color: #02afb8;
+    --primary-color: #02afb8;
+    --secondary-color: #9d825f;
     --tertiary-color: #fff;
+}
+*{
+    background-color: var(--primary-color);
+}
+.profile-pic{
+    height: 30%;
+    width: 30%;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+.profile-pic img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    object-position: 5% 40% ;
+    display:inline;
+    align-content: center;
+    border-radius: 90%;
+    border: 3px solid var(--secondary-color);
 }
 
 .header{
-    font-size: 24px;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     background-color: var(--primary-color);
-    position: inline;
+    display:flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
 }
-
-.henry-and-i{
-    max-height: auto;
-    max-width: auto;
-    height: 20px;
-    width: 20px;
-    border-radius: 10px;
+.header div{
+    height: auto;
+    width:auto;
 }
-
 .header h1{
-    color:#a32600;
+    font-size: 40px;
+    color: var(--secondary-color);
+    text-align: center;
+    vertical-align: text-bottom;
 }
 
-.contact-me{
-    position:inline;
+.header nav{
+    margin: 7px 0;
+}
+
+header nav ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: right;
+    align-items: center;
+}
+.header nav ul li{
+    font-size: 25px;
+    margin: 10px;
+    padding: 15px;
+    list-style: none;
+}
+
+.header nav ul li a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: var(--tertiary-color);
+}
+
+.hero{
+    object-fit: contain;
+    background-color: var(--primary-color);
+    margin:0;
+    padding: 0;
+}
+
+.hero img{
+    height: auto;
+    max-width: 100%;
+    object-fit: fill;
+
+}
+
+
+main{
+    background-color: var(--primary-color);
+}
+
+.main div{
+    display:block;
+    margin:20px;
+    padding: 5px;
+}
+
+
+
+.footer{
+    display:inline-block
 }
