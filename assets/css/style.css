@@ -154,6 +154,24 @@ main{
     background-size: cover;
     text-align: center;
 }
+.booze-buddy{
+    margin: auto;
+    padding: auto;
+}
+
+.booze-buddy a{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.booze-buddy-preview{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .horiseon-preview{
     width: 30%;
